@@ -3,5 +3,6 @@ resource "aws_vpc" "main" {
   tags = {
     Name = "HelloWorld"
     Environment = "dev"
+    Dept       = "IT"
   }
 }
