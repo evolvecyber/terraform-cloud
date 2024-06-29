@@ -15,6 +15,7 @@ module "vpc" {
     Terraform = "true"
     Environment = "dev"
     createdby = "teraform"
+    dept = "IT"
   }
 }
 
